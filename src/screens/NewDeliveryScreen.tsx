@@ -10,14 +10,14 @@ import {
   Platform
 } from 'react-native';
 import { Picker } from '@react-native-picker/picker';
-import { useAppDispatch, useAppSelector } from '@/store/hooks';
-import { createDeliveryStore, getDeliveries } from '@/store/deliveriesSlice';
-import { getPackingTypes } from '@/store/packingTypeSlice';
-import { getTransports } from '@/store/transportSlice';
-import { getStatuses } from '@/store/statuseSlice';
-import { getServices } from '@/store/serviceSlice';
-import { getTypeCargo } from '@/store/typeCargoSlice';
-import DateTimePickerField from '@/components/DateTimePickerField';
+import { useAppDispatch, useAppSelector } from '../store/hooks';
+import { createDeliveryStore, getDeliveries } from '../store/deliveriesSlice';
+import { getPackingTypes } from '../store/packingTypeSlice';
+import { getTransports } from '../store/transportSlice';
+import { getStatuses } from '../store/statuseSlice';
+import { getServices } from '../store/serviceSlice';
+import { getTypeCargo } from '../store/typeCargoSlice';
+import DateTimePickerField from '../components/DateTimePickerField';
 import { Pressable } from 'react-native';
 
 const CreateDeliveryScreen = ({ navigation }) => {

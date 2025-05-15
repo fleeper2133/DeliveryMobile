@@ -1,7 +1,7 @@
 import React from 'react';
 import { View, Text, StyleSheet, TouchableOpacity } from 'react-native';
-import { useAppDispatch, useAppSelector } from '@/store/hooks';
-import { logout } from '@/store/authSlice';
+import { useAppDispatch, useAppSelector } from '../store/hooks';
+import { logout } from '../store/authSlice';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 
 

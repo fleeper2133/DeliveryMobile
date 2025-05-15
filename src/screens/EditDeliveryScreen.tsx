@@ -1,14 +1,14 @@
 import React, { useEffect, useState } from 'react';
 import { View, Text, TextInput, ScrollView, StyleSheet, TouchableOpacity, Platform, Pressable } from 'react-native';
-import { useAppDispatch, useAppSelector } from '@/store/hooks';
-import { fetchDeliveryDetails, updateDeliveryStore, getDeliveries } from '@/store/deliveriesSlice';
+import { useAppDispatch, useAppSelector } from '../store/hooks';
+import { fetchDeliveryDetails, updateDeliveryStore, getDeliveries } from '../store/deliveriesSlice';
 import { Picker } from '@react-native-picker/picker';
 import DateTimePicker from '@react-native-community/datetimepicker';
-import { getPackingTypes } from '@/store/packingTypeSlice';
-import { getTransports } from '@/store/transportSlice';
-import { getStatuses } from '@/store/statuseSlice';
-import { getServices } from '@/store/serviceSlice';
-import { getTypeCargo } from '@/store/typeCargoSlice';
+import { getPackingTypes } from '../store/packingTypeSlice';
+import { getTransports } from '../store/transportSlice';
+import { getStatuses } from '../store/statuseSlice';
+import { getServices } from '../store/serviceSlice';
+import { getTypeCargo } from '../store/typeCargoSlice';
 
 const EditDeliveryScreen = ({ route, navigation }) => {
   const { deliveryId } = route.params;

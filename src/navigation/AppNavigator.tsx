@@ -1,9 +1,9 @@
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { createStackNavigator } from '@react-navigation/stack';
-import DeliveryListScreen from '@/screens/DeliveryListScreen';
-import NewDeliveryScreen from '@/screens/NewDeliveryScreen';
-import EditDeliveryScreen from '@/screens/EditDeliveryScreen';
-import ProfileScreen from '@/screens/Profile';
+import DeliveryListScreen from '../screens/DeliveryListScreen';
+import NewDeliveryScreen from '../screens/NewDeliveryScreen';
+import EditDeliveryScreen from '../screens/EditDeliveryScreen';
+import ProfileScreen from '../screens/Profile';
 
 const Tab = createBottomTabNavigator();
 const DeliveryStack = createStackNavigator();

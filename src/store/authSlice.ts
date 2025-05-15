@@ -1,6 +1,6 @@
 // src/store/authSlice.ts
 import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
-import { loginUser } from '@/services/api';
+import { loginUser } from '../services/api';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 
 interface AuthState {

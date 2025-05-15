@@ -2,11 +2,11 @@ import React from 'react';
 import { Provider } from 'react-redux';
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
-import { store } from '@/store';
-import LoginScreen from '@/screens/LoginScreen';
-import AppNavigator from '@/navigation/AppNavigator';
-import { useAppSelector } from '@/store/hooks';
-import theme  from '@/theme/theme';
+import { store } from './src/store';
+import AppNavigator from './src/navigation/AppNavigator';
+import LoginScreen from './src/screens/LoginScreen';
+import { useAppSelector } from './src/store/hooks';
+import theme  from './src/theme/theme';
 
 const Stack = createStackNavigator();
 

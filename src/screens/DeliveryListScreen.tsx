@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import { FlatList, View, Text, TouchableOpacity, StyleSheet, SafeAreaView } from 'react-native';
 import DeliveryDetailsModal from '../components/DeliveryDetailsModal';
-import { useAppDispatch, useAppSelector } from '@/store/hooks';
-import { completeDeliveryStore, getDeliveries } from '@/store/deliveriesSlice';
+import { useAppDispatch, useAppSelector } from '../store/hooks';
+import { completeDeliveryStore, getDeliveries } from '../store/deliveriesSlice';
 import { Icon } from 'react-native-paper';
 
 const DeliveryListScreen = ({ navigation }) => {

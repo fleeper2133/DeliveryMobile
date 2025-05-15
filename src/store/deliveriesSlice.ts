@@ -1,6 +1,6 @@
 // src/store/deliveriesSlice.ts
 import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
-import { fetchDeliveries, createDelivery, completeDelivery, fetchDelivery, updateDelivery } from '@/services/api';
+import { fetchDeliveries, createDelivery, completeDelivery, fetchDelivery, updateDelivery } from '../services/api';
 
 export const getDeliveries = createAsyncThunk(
   'deliveries/fetchAll',

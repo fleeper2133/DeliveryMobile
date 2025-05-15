@@ -1,9 +1,9 @@
 import React, { useEffect, useMemo, useState } from 'react';
 import { FlatList, View, Text, StyleSheet, ActivityIndicator, Button } from 'react-native';
-import { useAppSelector, useAppDispatch } from '@/store/hooks';
-import { getDeliveries } from '@/store/deliveriesSlice';
+import { useAppSelector, useAppDispatch } from '../store/hooks';
+import { getDeliveries } from '../store/deliveriesSlice';
 import AsyncStorage from '@react-native-async-storage/async-storage';
-import { setAuth, logout } from '@/store/authSlice';
+import { setAuth, logout } from '../store/authSlice';
 import { useNavigation } from '@react-navigation/native';
 
 interface DeliveryItem {

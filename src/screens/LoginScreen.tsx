@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { View, Text, TextInput, Button, StyleSheet, ActivityIndicator } from 'react-native';
-import { useAppDispatch, useAppSelector } from '@/store/hooks';
-import { login } from '@/store/authSlice';
+import { useAppDispatch, useAppSelector } from '../store/hooks';
+import { login } from '../store/authSlice';
 import { useNavigation } from '@react-navigation/native';
 
 const LoginScreen = () => {

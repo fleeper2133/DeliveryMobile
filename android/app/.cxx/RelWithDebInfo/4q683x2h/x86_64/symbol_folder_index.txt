@@ -1,0 +1,1 @@
+/mnt/extend/DeliveryMobile/android/app/build/intermediates/cxx/RelWithDebInfo/4q683x2h/obj/x86_64

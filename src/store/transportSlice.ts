@@ -1,5 +1,5 @@
 import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
-import { fetchTransports } from '@/services/api';
+import { fetchTransports } from '../services/api';
 
 export const getTransports = createAsyncThunk(
   'transports/fetchAll',
